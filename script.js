@@ -30,7 +30,7 @@ onload = function() {
 
        //モデルはY軸を中心に回転
        m.identity(wMatrix);
-       m.translate(wMatrix, [1.0, -1.0, 0.0], wMatriux]);
+       m.translate(wMatrix, [1.0, -1.0, 0.0], wMatrix]);
        m.rotate(wMatrix, rad, [0, 1, 0], wMatrix);
 
        //モデルの座標返還行列をｓ完成あせレンダリングする
